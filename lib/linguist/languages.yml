@@ -1976,6 +1976,7 @@ Hack:
   extensions:
   - ".hack"
   - ".hck"
+  - ".hhi"
   - ".hh"
   - ".php"
   tm_scope: text.html.php
