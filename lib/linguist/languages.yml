@@ -1976,6 +1976,8 @@ Hack:
   extensions:
   - ".hh"
   - ".php"
+  - ".hack"
+  - ".hck"
   tm_scope: text.html.php
   color: "#878787"
   language_id: 153
