@@ -177,7 +177,7 @@ disambiguations:
     named_pattern: objectivec
   - language: C++
     named_pattern: cpp
-- extensions: ['.hh']
+- extensions: ['.hh', '.hack', '.hck']
   rules:
   - language: Hack
     pattern: '<\?hh'
