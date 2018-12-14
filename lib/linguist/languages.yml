@@ -1976,8 +1976,8 @@ Hack:
   extensions:
   - ".hack"
   - ".hck"
-  - ".hhi"
   - ".hh"
+  - ".hhi"
   - ".php"
   tm_scope: text.html.php
   color: "#878787"
