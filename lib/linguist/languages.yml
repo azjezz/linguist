@@ -1974,10 +1974,10 @@ Hack:
   codemirror_mode: php
   codemirror_mime_type: application/x-httpd-php
   extensions:
-  - ".hh"
-  - ".php"
   - ".hack"
   - ".hck"
+  - ".hh"
+  - ".php"
   tm_scope: text.html.php
   color: "#878787"
   language_id: 153
