@@ -179,6 +179,7 @@ class TestLanguage < Minitest::Test
     assert_equal ['C', 'C++', 'Objective-C'], Language.find_by_extension('foo.h').map(&:name).sort
     assert_equal [Language['Hack']], Language.find_by_extension('HomeController.hack')
     assert_equal [Language['Hack']], Language.find_by_extension('ArgumentResolver.hck')
+    assert_equal [Language['Hack']], Language.find_by_extension('string_functions.hhi')
     assert_equal [], Language.find_by_extension('rb')
     assert_equal [], Language.find_by_extension('.null')
     assert_equal [Language['HTML+Django']], Language.find_by_extension('index.jinja')
@@ -347,6 +348,7 @@ class TestLanguage < Minitest::Test
     assert Language['Python'].extensions.include?('.py')
     assert Language['Hack'].extensions.include?('.hack')
     assert Language['Hack'].extensions.include?('.hck')
+    assert Language['Hack'].extensions.include?('.hhi')
     assert Language['Ruby'].extensions.include?('.rb')
     assert Language['SuperCollider'].extensions.include?('.scd')
   end
