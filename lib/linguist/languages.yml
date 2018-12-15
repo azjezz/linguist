@@ -1975,7 +1975,6 @@ Hack:
   codemirror_mime_type: application/x-httpd-php
   extensions:
   - ".hack"
-  - ".hck"
   - ".hh"
   - ".hhi"
   - ".php"
