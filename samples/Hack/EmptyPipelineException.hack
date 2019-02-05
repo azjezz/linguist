@@ -1,5 +1,3 @@
-<?hh // strict
-
 namespace Waffle\Http\Server\Exception;
 
 use namespace HH\Lib\Str;
