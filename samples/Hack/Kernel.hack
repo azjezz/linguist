@@ -1,5 +1,3 @@
-<?hh // strict
-
 namespace Waffle\Http\Kernel;
 
 use type Waffle\Contract\Http\Kernel\KernelInterface;
