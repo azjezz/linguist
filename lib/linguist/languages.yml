@@ -3109,6 +3109,12 @@ Myghty:
   tm_scope: none
   ace_mode: text
   language_id: 239
+Nand2Tetris Hack:
+  type: data
+  ace_mode: text
+  extensions:
+  - ".hack"
+  language_id: 694003343
 NCL:
   type: programming
   color: "#28431f"
