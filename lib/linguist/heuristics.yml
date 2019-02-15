@@ -177,6 +177,11 @@ disambiguations:
     named_pattern: objectivec
   - language: C++
     named_pattern: cpp
+- extensions: ['.hack']
+  rules:
+  - language: Nand2Tetris Hack
+    pattern: ^[01]+$
+  - language: Hack
 - extensions: ['.hh']
   rules:
   - language: Hack
@@ -452,11 +457,6 @@ disambiguations:
   - language: JSON
     pattern: '\"modelName\"\:\s*\"GM'
   - language: Yacc
-- extensions: ['.hack']
-  rules:
-  - language: Nand2Tetris Hack
-    pattern: ^[01]+$
-  - language: Hack
 named_patterns:
   cpp:
   - '^\s*#\s*include <(cstdint|string|vector|map|list|array|bitset|queue|stack|forward_list|unordered_map|unordered_set|(i|o|io)stream)>'
