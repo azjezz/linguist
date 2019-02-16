@@ -345,8 +345,6 @@ class TestLanguage < Minitest::Test
     assert Language['LSL'].extensions.include?('.lsl')
     assert Language['Perl'].extensions.include?('.pl')
     assert Language['Python'].extensions.include?('.py')
-    assert Language['Hack'].extensions.include?('.hack')
-    assert Language['Hack'].extensions.include?('.hhi')
     assert Language['Ruby'].extensions.include?('.rb')
     assert Language['SuperCollider'].extensions.include?('.scd')
   end
