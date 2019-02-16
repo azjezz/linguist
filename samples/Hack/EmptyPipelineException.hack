@@ -1,7 +1,7 @@
-namespace Waffle\Http\Server\Exception;
+namespace Nuxed\Http\Server\Exception;
 
 use namespace HH\Lib\Str;
-use type Waffle\Contract\Http\Server\MiddlewarePipeInterface;
+use type Nuxed\Contract\Http\Server\MiddlewarePipeInterface;
 use type OutOfBoundsException;
 
 <<__ConsistentConstruct>>
